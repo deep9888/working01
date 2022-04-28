@@ -1,0 +1,175 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 39168,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 6836,
+      "max": [
+        17.4577808380127,
+        49.9564056396484,
+        17.4577808380127
+      ],
+      "min": [
+        -17.4577808380127,
+        0.0868282318115234,
+        -17.4577808380127
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 6836,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 6836,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Substance Painter 7.1.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 156672,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 82032,
+      "byteOffset": 156672,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 82032,
+      "byteOffset": 238704,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 54688,
+      "byteOffset": 320736,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 375424,
+      "uri": "DEQ20NOR39264-160481.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "DEQ20NOR39264_160481_01_baseColor.png"
+    },
+    {
+      "uri": "DEQ20NOR39264_160481_01_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "DEQ20NOR39264_160481_01_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "name": "DEQ20NOR39264_160481_01",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "DEQ20NOR39264_160481",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "DEQ20NOR39264_160481",
+      "scale": [
+        0.00999999977648258,
+        0.00999999977648258,
+        0.00999999977648258
+      ]
+    },
+    {
+      "mesh": 0,
+      "name": "DEQ20NOR39264_160481"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
